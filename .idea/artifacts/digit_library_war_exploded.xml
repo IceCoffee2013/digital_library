@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="digit_library:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/digit_library_war_exploded</output-path>
+    <root id="archive" name="digit_library_war exploded.war">
+      <element id="javaee-facet-resources" facet="digit_library/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="digit_library" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="org.jdom:jdom2:2.0.6" />
+          <element id="library" level="project" name="jstl:jstl:1.2" />
+        </element>
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/dblp_small.xml" />
+    </root>
+  </artifact>
+</component>
